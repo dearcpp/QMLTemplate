@@ -5,5 +5,5 @@ project(QMLTemplate
         DESCRIPTION "Simple template for C++ QML based desktop application"
 )
 
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY AETERNA_PROJECT QMLTemplate)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY QML_TEMPLATE_PROJECT QMLTemplate)
 add_subdirectory(QMLTemplate)
